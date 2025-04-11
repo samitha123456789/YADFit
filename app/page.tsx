@@ -51,9 +51,13 @@ export default function Home() {
               </a>
 
               <Link href="tel:+94 76 737 0688">
-              <Button  size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
-                Book a Trial
-              </Button>
+              <Button
+  size="lg"
+  variant="outline"
+  className="bg-black text-white border-white hover:bg-gray-800 hover:border-white"
+>
+  Book a Trial
+</Button>
               </Link>
             </div>
           </div>
@@ -222,9 +226,13 @@ export default function Home() {
             </a>
             
             <Link href="/contact" >
-            <Button size="lg" variant="outline"  className="text-white border-white hover:bg-white/10">
-              Contact Us
-            </Button>
+            <Button
+  size="lg"
+  variant="outline"
+  className="bg-black text-white border-white hover:bg-gray-800 hover:border-white"
+>
+  Contact Us
+</Button>
             </Link>
           </div>
         </div>
